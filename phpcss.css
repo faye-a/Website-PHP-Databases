@@ -1,0 +1,133 @@
+body {
+    font-family: trebuchet ms;
+}
+/* ------------------------------------ */
+#header {
+  padding: 10px;
+  text-align: center;
+  background: rgba(107, 170, 255, 0.64);
+  color: white;
+}
+#header h1 {
+    font-size: 40px;
+}
+#header li {
+    list-style-type: none;
+    font-size: 20px;
+    display: inline;
+    margin-right: 20px;
+}
+#header a:visited, a:link {
+    text-decoration: none;
+    color: white;
+}
+#header a:hover {
+    color: rgba(255, 255, 255, 0.65);
+}
+/* ------------------------------------ */
+h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+span {
+    border-bottom: 5px solid #AAA;
+}
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* ------------------------------------ */
+#select {
+    margin-left: 36.5%;
+}
+#select label {
+    font-size: 20px;
+}
+select {
+    background-color: rgba(144, 178, 255, 0.64);
+    padding: 5px;
+    margin-right: 1%;
+    font-size: 15px;
+}
+/* ------------------------------------ */
+/* The following format of code for a table is taken from W3Schools to make the table interactive: https://www.w3schools.com/css/css_table.asp */
+.line {
+  margin-top: 10px;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.line td, #line th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.line tr:nth-child(even){background-color: #ffffff;}
+
+.line tr:hover {background-color: #ffd5d5;}
+
+.line th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(107, 170, 255, 0.97);
+  color: white;
+}
+/* ------------------------------------ */
+.office-tab {
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.office-tab td, #line th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.office-tab tr:nth-child(even){background-color: #e2e2e2;}
+
+.office-tab th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(255, 137, 137, 0.82);
+  color: white;
+}
+#submit {
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#office-form {
+    text-align: center;
+    font-size: 22px;
+}
+#office-form p {
+    font-weight: 700;
+}
+#office-form label {
+    font-size: 20px;   
+}
+/* ------------------------------------ */
+input.hide_button {
+    display: none;
+}
+label {
+    cursor: pointer;
+}
+#footer {
+    padding: 30px;
+    margin-top: 5%;
+    background-color: rgba(107, 170, 255, 0.64);
+    text-align: center;
+    color: white;
+}
